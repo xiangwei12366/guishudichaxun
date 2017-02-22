@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">归属地查询</string>
+    <string name="phone_number">手机号码:</string>
+    <string name="phone_province">省份:</string>
+    <string name="phone_city">城市:</string>
+    <string name="phone_areacode">区号:</string>
+    <string name="phone_zip">邮政编码:</string>
+    <string name="phone_company">运营商:</string>
+    <string name="search_button">查询</string>
+</resources>

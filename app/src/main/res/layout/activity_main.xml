@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mtool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorToolbar"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:paddingTop="15dip"
+        android:id="@+id/phone_number"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_number" />
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:maxLength="11"
+            style="@style/phone_et"
+            android:hint="请输入手机号码"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_provider"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_province" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/et_province"
+            style="@style/phone_et"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_city"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_city" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/et_city"
+            style="@style/phone_et"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_areacode"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_areacode" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/et_areacode"
+            style="@style/phone_et"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_zip"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_zip" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/et_zip"
+            style="@style/phone_et"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_company"
+        style="@style/ll_phone_number">
+
+        <TextView
+            style="@style/phone_text"
+            android:text="@string/phone_company" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/et_company"
+            style="@style/phone_et"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_button"
+        android:onClick="onClick"/>
+
+</LinearLayout>

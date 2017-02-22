@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="ll_phone_number">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">18px</item>
+        <item name="android:paddingBottom">15dip</item>
+    </style>
+
+    <style name="phone_text">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/phone_number_size</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="phone_et">
+        <item name="android:layout_width">220dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:textSize">@dimen/phone_number_size</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+</resources>
